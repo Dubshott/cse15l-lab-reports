@@ -62,6 +62,8 @@ Now we can start using commands. There are way too many commands, so I can't typ
 
 <img width="447" alt="image" src="https://user-images.githubusercontent.com/55414361/211930318-8c5a960d-0ba4-41db-978b-1405dd2a6b7a.png">
 
+Yay!
+
 
 
 
