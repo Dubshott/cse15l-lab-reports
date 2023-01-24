@@ -18,7 +18,13 @@ Select the "Download for Windows" and install the program. Once you finishing in
 
 ## Step 2 - Using Bash
 
-Once you have downloaded Git Bash, you need to open the terminal on VSCode. To do this, use the following command: Ctrl + `. If you do that, you should see this: 
+`Git Bash` will be the terminal that we will be we will be scripting with. In order to download gitbash, go this link and download it. [Git Bash](https://gitforwindows.org/)
+
+Once you have downloaded `Git Bash`, you need to open the terminal on VSCode. To do this, click "Terminal" at the top of VSCode. Then press "New Terminal"
+
+<img width="436" alt="image" src="https://user-images.githubusercontent.com/55414361/214400229-7a358754-4dfe-47df-9373-642ae4bb3bfa.png">
+
+If you do that, you should see this: 
 
 <img width="770" alt="image" src="https://user-images.githubusercontent.com/55414361/211927352-2badbeca-7ab6-4d63-b60b-fd9897567d01.png">
 
@@ -28,9 +34,9 @@ Once we pulled up the terminal, we need to do the following steps to change the 
 
 <img width="766" alt="image" src="https://user-images.githubusercontent.com/55414361/211927693-5a0bbcfd-ff3c-4091-8303-95c673a00427.png">
 
-2. In that search bar type in 'Select Default Profile' and click it. 
+2. In that search bar type in "Select Default Profile" and click it. 
 
-3. Select 'Git Bash' 
+3. Select `Git Bash` 
 
 <img width="448" alt="image" src="https://user-images.githubusercontent.com/55414361/211928089-2d5604d3-84ef-4c6f-bee3-2f9df95df772.png">
 
@@ -44,11 +50,21 @@ Once we pulled up the terminal, we need to do the following steps to change the 
 
 Awesome sauce! We have finished the setup process for logging into the account. Now all we need to do is log into the account. 
 
-We are going to first type in this to get logged in: '$ ssh cs15lwi23***@ieng6.ucsd.edu'. Make sure you change the *** to whatever letters are in your username. 
+To find your account, you have to go through a couple steps. 
+1. Go to https://sdacs.ucsd.edu/~icc/index.php to look up your CSE15L account
+2. You will be able to find your username which should say cs15lwi23***. 
+3. Then, look at your results. 
+4. At the top there will be a link that states "change your password". Select this link. 
+5. Now change put in your current password for your school account and set it to another password. You can even use your same password. 
+6. In this step, you can select "NO" for "Change MyTritonLink password?" and set "Change course-specific account passwords?" to "YES". However, you might not even see these options. If that is the case, then you don't have to do anything here. 
+7. Press the input that says "Confirm Password" and press the ENTER key. DO NOT press Check Password because it will not work. 
+8. Wait a couple minutes for the account to set up and then you should be good to go. 
+
+We are going to first type in this to get logged in: `$ ssh cs15lwi23***@ieng6.ucsd.edu`. Make sure you change the *** to whatever letters are in your username. 
 
 <img width="211" alt="image" src="https://user-images.githubusercontent.com/55414361/211929457-ec26904f-6800-43b3-bdac-c4bd86ee3ef0.png">
 
-If this is your first time, you will recieve an error which is perfectly okay! Just type in 'yes' and let it run. 
+If this is your first time, you will recieve an error which is perfectly okay! Just type in "yes" and let it run. 
 
 <img width="447" alt="image" src="https://user-images.githubusercontent.com/55414361/211929640-b7a04d63-972d-4aa7-939a-3367b12463ca.png">
 
@@ -58,7 +74,7 @@ Once you properly log in, you should see something like this:
 
 <img width="397" alt="image" src="https://user-images.githubusercontent.com/55414361/211929749-f50b84ab-57f2-4065-8aa3-83438cde2699.png">
 
-If this is what you see, then congratulations! You successfully logged into your account! Now you can go ahead and run whatever command you want like 'cd' or 'ls -a' or whatever else you would like to do. 
+If this is what you see, then congratulations! You successfully logged into your account! Now you can go ahead and run whatever command you want like `cd` or `ls -a` or whatever else you would like to do. 
 
 Hooray!
 
@@ -69,6 +85,16 @@ Now we can start using commands. There are way too many commands, so I can't typ
 <img width="576" alt="image" src="https://user-images.githubusercontent.com/55414361/211930178-6af42184-1f5b-4ba7-9553-265c2e975445.png">
 
 <img width="447" alt="image" src="https://user-images.githubusercontent.com/55414361/211930318-8c5a960d-0ba4-41db-978b-1405dd2a6b7a.png">
+
+In addition to these two examples, I also used a couple more such as: 
+
+`cd ~`
+`cd`
+`cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`
+
+These commands allow us to go through the directories within the ucsd server. We can create new files for everyone to see and even change other's files. It's basically one huge storage unit for everyone in ucsd to use. 
+
+A couple of the outputs seemed kind of off to me because I didn't have the files associated with the command. For example, the `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/` didn't properly work for me because I didn't have the right file to open. 
 
 Yay!
 
