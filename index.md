@@ -20,6 +20,8 @@ Select the "Download for Windows" and install the program. Once you finishing in
 
 `Git Bash` will be the terminal that we will be we will be scripting with. In order to download gitbash, go this link and download it. [Git Bash](https://gitforwindows.org/)
 
+If you are on Mac, you don't need to do this step because you will already have it preinstalled. However, Windows users need to download this. 
+
 Once you have downloaded `Git Bash`, you need to open the terminal on VSCode. To do this, click "Terminal" at the top of VSCode. Then press "New Terminal"
 
 <img width="436" alt="image" src="https://user-images.githubusercontent.com/55414361/214400229-7a358754-4dfe-47df-9373-642ae4bb3bfa.png">
