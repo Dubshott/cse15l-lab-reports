@@ -24,7 +24,7 @@ The only method that is being called through these examples is in `public String
 
 The first thing the code will go through is if the webpage is in the default `localhost:4000`. If it is, then it will show the final output of all the strings. If it isn't, 
 then it will check the URL path that is inputted. If it follows exactly as `localhost:4000/add-message?s=<input>`, then it will add the input into the `String input`, 
-and say, "<input> has been added!". Once we go back to `localhost:4000/`, then we will be able to see the inputted String. 
+and say, "'input' has been added!". Once we go back to `localhost:4000/`, then we will be able to see the inputted String. 
 
 Therefore, the most relevant arugments are the `String input` and `String[] parameters` since it takes in the in the user's input and displays it on the screen. 
 
