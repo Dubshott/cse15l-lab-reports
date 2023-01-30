@@ -1,7 +1,7 @@
 # Logging into a Course-Specific Account
 
 ---
-[LabReportWeek3}(/labreport3.md)
+[LabReportWeek3](/labreport3.md)
 
 Logging into the course-specific account is really important because it allows students to log into the school and start running commands within it for their classes. We will be learning how to log into the course-specific account on ieng6. 
 
