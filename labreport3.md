@@ -32,3 +32,71 @@ The value that gets changed after the specific request would be String input bec
 that is inputted. The way we do this is by adding the parameter (the input) and adding a `\n` to the main `String input`.
 
 ## Part 2
+
+here is the buggy code: 
+
+``` Java
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
+
+This first test induces a failure:  
+
+``` Java
+  @Test
+  public void testReverseInPlaceMultipleNums() {
+    int[] input1 = { 2, 3, 4 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{4,3,2}, input1);
+  }
+```
+
+This second test doesn't induce a failure. 
+
+``` Java
+@Test 
+	public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+	}
+```
+
+Here are the tests running: 
+
+<img width="602" alt="image" src="https://user-images.githubusercontent.com/55414361/215364373-b88b89f0-8d1f-450b-9e97-70a370a14c06.png">
+
+And now to fix the code: 
+
+Old Version:
+``` Java
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
+New Version:
+``` Java
+  static void reverseInPlace(int[] arr) {
+
+    int temp;
+    
+    for(int i = 0; i < arr.length/2; i += 1) {
+      temp = arr[i];
+      arr[i] = arr[arr.length - i-1];
+      arr[arr.length-i-1] = temp;
+    }
+  }
+```
+
+The main thing we added was a temporary array that would store each value from the real array. The reason why we did this was because the old code basically started clashing since all the values were constantly being replaced. When we add a temporary array, the variables won't be constantly replaced and will allow for a smooth transition. 
+
+## Part 3
+
+In week 2 and 3 I learned a lot about JUnit tests. Before these weeks, I had no idea what JUnit even was so it was nice to see that there was a way to check your code. The only way I was able to check before was through gradescope when the teacher used an AI grader. Now through JUnit, I can check how my code does and properly debug if there is an error. 
+
+
