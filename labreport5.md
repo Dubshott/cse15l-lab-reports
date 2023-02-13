@@ -60,12 +60,21 @@ command works really well because it allows us to easily access the file and fin
 
 In the first picture, we use the less command to access the file. Then in the second picture we can see the content again. I typed in a new command 
 called `/channel`. I use this command in order to look for the word "channel". This step was just like the previous picture. In the fourth picture we can see the 
-word "channel" highlighted in different places. However, I used the command `n` in order to move the page downwards so I could see other content. In the fourth picture, 
-we can see how the word channel is in a different spot. This allows us to see the required word in many different places and allow us to see exactly where the word is. 
+word "channel" highlighted in different places. However, I used the command `n` in order to move the page downwards so I could see other content. In the fourth picture, we can see how the word channel is in a different spot. This allows us to see the required word in many different places and allow us to see exactly where the word is. 
 
 ## 3. Using Pattern Search
 
 Pattern search works similiarly to find except it follows a specified pattern. 
+
+### First Example
+
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/55414361/218597302-03424c53-7634-4786-8597-7354b4bb2234.png">
+
+<img width="447" alt="image" src="https://user-images.githubusercontent.com/55414361/218597279-12c8b637-acc6-420c-8143-467c72e112aa.png">
+
+In the first picture, we use a new command. The main difference is the `-proom`. What this command does is it highlights the word that comes after `-p`. In this case it is the word "room". In the second picture, we can see where all the "room"s are highlighted since that was the pattern we wanted to find. This works similiarly to the find command except we can immediately declare that we want to want to find a specific word rather than search it in the `less` content. 
+
+### Second Example
 
 
 
