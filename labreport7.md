@@ -20,8 +20,12 @@ This is the problem we face when setting this up so we need to fix this.
 <img width="231" alt="image" src="https://user-images.githubusercontent.com/55414361/221454795-00f8c300-5439-4475-b0e9-49b7d6837f89.png">
 
 ```
+// These are the commands that were run
 rm - r lab 7 <enter>
 yes <enter>
 ls <enter>
 ```
+
+In short, we use `rm -r lab7` to remove the file and then used `ls` to check if the file was deleted. 
+
 
