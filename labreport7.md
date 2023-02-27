@@ -28,4 +28,28 @@ ls <enter>
 
 In short, we use `rm -r lab7` to remove the file and then used `ls` to check if the file was deleted. 
 
+## Forking Repo
+
+1. Select browser (I used Google Chrome) 
+2. Go to lab7 repository (https://github.com/ucsd-cse15l-w23/lab7)
+3. Click fork button at top right of screen
+
+<img width="342" alt="image" src="https://user-images.githubusercontent.com/55414361/221455307-bf06bfdd-4065-4f2e-a4c7-17c11a461859.png">
+
+This allows us to create a personal copy of the code and tinker with it all we want without messing up the original branch. We didn't have to use any commands for this. 
+
+## Starting the Timer
+
+We want to see how long it takes for us to finish the challenge, so we go to turn on the timer or stopwatch. 
+
+1. Go to browser (I used google chrome)
+2. Type in "stopwatch"
+3. Hit the start button to start the timer. 
+
+<img width="513" alt="image" src="https://user-images.githubusercontent.com/55414361/221455484-b586eb16-19b7-426a-959c-84fa0e66a216.png">
+
+No commands were used in this step. 
+
+
+
 
