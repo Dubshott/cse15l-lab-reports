@@ -94,8 +94,40 @@ cd lab7 <enter>
 //Command that was run: java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples
 ```
 
-I had to first cd into the repository, so I used the cd command to go into the repo. Then I used the up key on my keyboard since I already used that command before. In the comment underneath the key strokes, we can see the command that was run. I pressed enter for both and I was able to see that the tests failed. 
+I had to first cd into the repository, so I used the cd command to go into the repo. Then I used the up key on my keyboard since I already used that command before. I clicked it a couple times since it was kind of high up but then I pressed enter when I saw the command. In the comment underneath the key strokes, we can see the command that was run. 
 
 In short, these commands allowed me to see that the tests had failed, which is part of the challenge. 
 
+## Fixing the Code
 
+In this, we are going to go inside the file and change edit the code so that the tests will pass. 
+
+The pictures below show all the changes: 
+
+<img width="374" alt="image" src="https://user-images.githubusercontent.com/55414361/221459962-e01ed012-4a4a-4edb-a82a-145806160830.png">
+
+<img width="1112" alt="image" src="https://user-images.githubusercontent.com/55414361/221458312-4dd4b428-32f4-4187-b886-719531214511.png">
+
+<img width="121" alt="image" src="https://user-images.githubusercontent.com/55414361/221458371-98198451-ad93-46b6-b13b-37bd5c3588dc.png">
+
+<img width="158" alt="image" src="https://user-images.githubusercontent.com/55414361/221458393-9042e2ec-b5bd-48b8-9bf5-33717d0f7a47.png">
+
+<img width="391" alt="image" src="https://user-images.githubusercontent.com/55414361/221458430-8892488b-c439-4449-8b1b-463c1fe3e3e3.png">
+
+```
+nano Li <tab> <enter>
+// Command ran: nano ListExamples.java
+<down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><down>
+// Pressed down key 29 times
+<right><right><right><right><right><right><right><right><right><right><right><right><right><right>
+// Pressed right key 14 times
+<backspace>
+2
+<Ctrl+O>
+<enter>
+<Ctrl+X>
+```
+
+I first used the nano command and tabbed to get into the right file. Then I had to move my cursor to the right part of the code, so I had to use a lot of `<down>` and `<right>`. Then I used the `<backspace>` and the `2` to change the `index1` to `index2`, which would fix the problem. Then I pressed `<Ctrl+O>` and `<Ctrl+X>` to save the file and exit the nano. 
+
+In short, this whole process allowed me to move through the file and quickly change the problem in the code and fix the main problem. I changed index1 to index2, as shown in the pictures above. 
