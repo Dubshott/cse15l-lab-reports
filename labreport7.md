@@ -136,6 +136,8 @@ In short, this whole process allowed me to move through the file and quickly cha
 
 For this step, I needed to run the program and show that the tests passed.
 
+<img width="531" alt="image" src="https://user-images.githubusercontent.com/55414361/221463861-2b404fe2-e0cb-4dca-981f-9e2dd5662e83.png">
+
 ```
 <up><up> <enter>
 //Command that was run: javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
