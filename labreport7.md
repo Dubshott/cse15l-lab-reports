@@ -147,4 +147,18 @@ Since I already used this command, I simply pressed `<up>` a couple times until 
 
 In short, these two commands run the jUnit tests and show that they pass this time. 
 
-## Committing and pushing
+## Committing and Pushing
+
+Now all we need to do is commit and push everything back into our Github so that the changes are saved into the repository. 
+
+<img width="662" alt="image" src="https://user-images.githubusercontent.com/55414361/221461292-2be15aba-ebba-4690-b844-7c148bf49dc8.png">
+
+```
+git add ListExamples.java <enter>
+git commit -m "New Changes have been added" <enter>
+git push <enter>
+```
+
+I just normally typed out all the commands since I couldn't use the `<tab>` command here since nothing with autofill. Then I just used the `<enter>` to run the commands. 
+
+In short, I basically added the changes, committed the file, and then pushed it into the repository. 
