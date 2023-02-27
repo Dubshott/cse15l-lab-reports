@@ -20,7 +20,6 @@ This is the problem we face when setting this up so we need to fix this.
 <img width="231" alt="image" src="https://user-images.githubusercontent.com/55414361/221454795-00f8c300-5439-4475-b0e9-49b7d6837f89.png">
 
 ```
-// These are the commands that were run
 rm - r lab 7 <enter>
 yes <enter>
 ls <enter>
@@ -58,11 +57,45 @@ We need to log back into our ieng6 machine so that we can access the files insid
 
 ```
 ssh cs15 <tab> <enter>
+// Command that ran: ssh cs15lwi23alp@ieng6.ucsd.edu
 ```
 
-By just pressing `ssh cs15` and then immediately pressing tab, I was able to autocomplete the entire ssh log in statement rather than having to type out the whole thing. 
+By just pressing `ssh cs15` and then immediately pressing tab, I was able to autocomplete the entire ssh log in statement rather than having to type out the whole thing. In the comment underneath, we can see the command that was run. 
 
 This allowed me to log back into the ieng6 machine. 
 
+## Clone Github Repository
+
+For this step, we are going to be cloning the repository that we are going to be working with. 
+
+<img width="484" alt="image" src="https://user-images.githubusercontent.com/55414361/221456164-ea6038aa-7de6-465d-a44d-151741a5431c.png">
+
+```
+git clone <ctrl+c> <ctrl+v> <enter>
+// Command that ran: git clone git@github.com:Dubshott/lab7.git
+```
+
+For this command, I wasn't able to use `<tab>` at all, so I had to type out the the first part of the command. Then I copied the ssh from github and pasted it back into the terminal. This allowed me to quickly place in the ssh link, allowing for a fast clone. In the comment underneath, we can see the command that was run. 
+
+In short, this command allowed me to clone the repository, lab7. 
+
+## Running Tests
+
+For this step, I needed to run the program and show that the tests failed. 
+
+<img width="543" alt="image" src="https://user-images.githubusercontent.com/55414361/221456845-2130f009-604f-4f01-8d73-13aff0265d8f.png">
+<img width="897" alt="image" src="https://user-images.githubusercontent.com/55414361/221456931-08a904bc-789d-4c92-b833-4ec6220475dd.png">
+
+```
+cd lab7 <enter>
+<up><up><up><up><up> <enter> 
+//Command that was run: javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+<up><up><up><up><up><up> <enter> 
+//Command that was run: java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples
+```
+
+I had to first cd into the repository, so I used the cd command to go into the repo. Then I used the up key on my keyboard since I already used that command before. In the comment underneath the key strokes, we can see the command that was run. I pressed enter for both and I was able to see that the tests failed. 
+
+In short, these commands allowed me to see that the tests had failed, which is part of the challenge. 
 
 
