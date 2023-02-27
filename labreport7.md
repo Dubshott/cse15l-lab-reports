@@ -50,6 +50,19 @@ We want to see how long it takes for us to finish the challenge, so we go to tur
 
 No commands were used in this step. 
 
+## Logging back into ieng6
+
+We need to log back into our ieng6 machine so that we can access the files inside it and complete the challenge. Since we already used the ssh option during the set up setup, we shouldn't have to wait for too long since we don't have to type a password anymore. 
+
+<img width="552" alt="image" src="https://user-images.githubusercontent.com/55414361/221455727-3e0f917b-cfaa-4d42-a1f9-372cb110fc8e.png">
+
+```
+ssh cs15 <tab> <enter>
+```
+
+By just pressing `ssh cs15` and then immediately pressing tab, I was able to autocomplete the entire ssh log in statement rather than having to type out the whole thing. 
+
+This allowed me to log back into the ieng6 machine. 
 
 
 
