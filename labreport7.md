@@ -136,7 +136,7 @@ In short, this whole process allowed me to move through the file and quickly cha
 
 For this step, I needed to run the program and show that the tests passed.
 
-<img width="528" alt="image" src="https://user-images.githubusercontent.com/55414361/221464317-ef0f0224-a151-4ed9-9120-2730b75f8a0f.png">
+<img width="521" alt="image" src="https://user-images.githubusercontent.com/55414361/221464388-e7c4cf22-2377-4a00-a785-c02b15a8576d.png">
 
 ```
 <up><up> <enter>
