@@ -90,7 +90,7 @@ For this step, I needed to run the program and show that the tests failed.
 cd lab7 <enter>
 <up><up><up><up><up> <enter> 
 //Command that was run: javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
-<up><up><up><up><up><up> <enter> 
+<up><up><up><up><up> <enter> 
 //Command that was run: java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples
 ```
 
@@ -131,3 +131,20 @@ nano Li <tab> <enter>
 I first used the nano command and tabbed to get into the right file. Then I had to move my cursor to the right part of the code, so I had to use a lot of `<down>` and `<right>`. Then I used the `<backspace>` and the `2` to change the `index1` to `index2`, which would fix the problem. Then I pressed `<Ctrl+O>` and `<Ctrl+X>` to save the file and exit the nano. 
 
 In short, this whole process allowed me to move through the file and quickly change the problem in the code and fix the main problem. I changed index1 to index2, as shown in the pictures above. 
+
+## Re-run Tests
+
+For this step, I needed to run the program and show that the tests passed.
+
+```
+<up><up> <enter>
+//Command that was run: javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+<up><up><up> <enter>
+//Command that was run: java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples
+```
+
+Since I already used this command, I simply pressed `<up>` a couple times until the command came up. Then I used the `<enter>` key to run the command.
+
+In short, these two commands run the jUnit tests and show that they pass this time. 
+
+## Committing and pushing
