@@ -103,14 +103,6 @@ Citation: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
 ### Second Example 
 
-<img width="864" alt="image" src="https://user-images.githubusercontent.com/55414361/218615251-4eccb6a7-8831-4160-bf57-a4bb58bb15fc.png">
-
-<img width="380" alt="image" src="https://user-images.githubusercontent.com/55414361/218615180-0a98a9fb-6fc5-4a0e-93b3-fed42dd9758f.png">
-
-<img width="426" alt="image" src="https://user-images.githubusercontent.com/55414361/218615207-051ac4b5-496c-46b8-8c6c-830fd2296a11.png">
-
-<img width="440" alt="image" src="https://user-images.githubusercontent.com/55414361/218615231-18b2317d-c4d8-4980-9526-71ccbf667624.png">
-
 ![](2023-03-12-19-49-47.png)
 
 In this image, I used the command except I decided to search up a phrase or multiple words which was "ingenuity and courage". It still worked normally, but the grep function had to search for the entire phrase. In the output, we can see that the phrase "ingenuity and courage" come at the end of the line. 
